@@ -1,0 +1,14 @@
+using System;
+
+class main
+{
+    static void Main()
+    {
+        string s = "Microsoft .NET Framework 2 Application Development Foundation";
+        string[] sa = s.Split(" ");
+
+        Array.Sort(sa);
+
+        s = string.Join(" ", sa); Console.WriteLine(s);
+    }
+}
